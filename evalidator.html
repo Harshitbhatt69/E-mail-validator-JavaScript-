@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <header class="header2">
         <script type="text/javascript">
         function validate()
         {
@@ -15,15 +16,19 @@
                 document.getElementById("label").style.visibility="visible";
                 document.getElementById("label").style.color="green";
             }
-            else{
+            else
+            {
                 document.getElementById("label").innerHTML="Invalid";
                 document.getElementById("label").style.visibility="visible";
                 document.getElementById("label").style.color="red";
             }
         }
         </script>
+        <h1><u><b>Email Verifaction</b></u></h1>
+        <h2><i></b>Enter any email below:</h2></b></i></h2>
         <input id="text" placeholder="Enter your email" /><br>
         <label id="label" style="color: red;visibility: hidden;">Invalid</label><br>
         <button id="btn" type="button" onclick="validate()">Validate now</button>
+    </header>
     </body>
 </html>
