@@ -1,0 +1,19 @@
+p.head{
+    text-align: center;
+    font-size: 40px ;
+    font-weight: bolder;
+    font-family: monospace;
+}
+p.inst{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+}
+#btn{
+    font-family: monospace;
+}
+#text{}
+.main{
+    background-color: lightskyblue;
+}
