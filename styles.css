@@ -3,6 +3,7 @@ p.head{
     font-size: 40px ;
     font-weight: bolder;
     font-family: monospace;
+    text-shadow: 5px 2px red;
 }
 p.inst{
     text-align: center;
