@@ -3,7 +3,7 @@ p.head{
     font-size: 40px ;
     font-weight: bolder;
     font-family: monospace;
-    text-shadow: 5px 2px red;
+    text-shadow: rgba(0,255,0,1) -1px -2px 0.50em; /*syntax: -1px:left, -2px:higher, 0.5er:radious blue*/
 }
 p.inst{
     text-align: center;
@@ -16,5 +16,5 @@ p.inst{
 }
 #text{}
 .main{
-    background-color: lightskyblue;
+    background-color: slategrey;
 }
