@@ -1,21 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Email Validator</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body class="main">
-        <header class="header2">
+  <head>
+    <title>Email Validator</title>
+    <link rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Email Validator</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarCollapse"
+      aria-controls="navbarCollapse"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a
+            class="nav-link"
+            href="https://github.com/Harshitbhatt69/E-mail-validator-JavaScript-"
+          >
+            Contribute</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <body
+    style="
+      background-image: url('https://raw.githubusercontent.com/tewarig/section-f/master/yo.jpg');
+    "
+  >
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+    <main role="main" class="container">
+      <div class="jumbotron">
+        
+        <br />
         <script type="text/javascript" src="scripts.js"></script>
-        <p class="head">
-            Email Verifaction
-        </p>
+        <div style="margin-left: 30%;">
         <p class="inst">
-            Enter any email below...
+        <h2>  Enter any email below... </h2>
         </p>
-        <input id="text" placeholder="Enter your email" /><br>
-        <label id="label" style="color: red;visibility: hidden;">Invalid</label><br>
-        <button id="btn" type="button" onclick="validate()">Validate now</button>
-    </header>
-    </body>
+        <table>
+            <tr>
+                <td>
+
+                    <input id="text" placeholder="Enter your email" /><br />
+                </td>
+              <td>
+                     <button class="btn btn-primary"  type="button" onclick="validate()">
+                      Validate now
+                    </button>
+                </td>
+            </tr>
+        <label id="label" style="color: red; visibility: hidden;">Invalid</label
+        ><br />
+
+      </div>
+      </div>
+    </main>
+  </body>
 </html>
